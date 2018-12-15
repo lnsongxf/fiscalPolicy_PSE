@@ -1,26 +1,30 @@
+[AF]:https://sites.google.com/a/nyu.edu/axelleferriere/home
+
 # README
 
-Axelle Ferrière's assignment due on December 15th.
+This assignment is part of the  Fall 2018 Paris Scool of Economics PhD course in Macroeconomics.   
 
-PhD course in Macroeconomics (PSE) Fall 2018.   
+This is to pass [Pr Axelle Ferriere][AF] course. 
 
 ## Authors 
 
-- Olimpia Cutinelli Rendina, PhD Student - Paris Scool of Economics
-- Cyril Verluise, PhD Student - Paris Scool of Economics
+- Olimpia Cutinelli Rendina - PhD Student, Paris Scool of Economics
+- Cyril Verluise - PhD Student, Paris Scool of Economics
 
 ## Programming language and dependecies
 
-- Python 3
-    
-    - requirements.txt
+- Language: Python 3
+- Dependencies: listed in `requirements.txt`
     
 ## Results
 
 ### Get Repo
 
 **Git**
-```
+
+```shell
+git --version
+
 cd <your-directory>
 git clone https://github.com/cverluise/fiscalPolicy.git 
 ```
@@ -32,21 +36,21 @@ git clone https://github.com/cverluise/fiscalPolicy.git
 
 ### Read results
 
-Results are gathered in the `docs/` file:
+1. Make it easy: results are gathered in the `docs/` file. There, you will find:
 
-- `fiscalPolicy_replicationExercise_OCRCV.html`: html version of the notebook of the replication exercise (code + interactive output). Open it in your favourite browser (Chrome, Safari, etc)
-- `fiscalPolicy_theoreticalExercise_OCRCV.pdf`: pdf of the theoretical exercise 
+    - `fiscalPolicy_replicationExercise_OCRCV.html`: html version of the notebook of the replication exercise (code + interactive output). Open it in your favourite browser (Chrome, Safari, etc)
+    - `fiscalPolicy_theoreticalExercise_OCRCV.pdf`: pdf of the theoretical exercise 
 
-Static plots (pdf) generated in the course of the replication exercise are also available in the `plots/` file. 
+2. "One look is worth a thousand words": Static plots (pdf format) generated in the course of the replication exercise are available in the `plots/` file. 
 
-Interested readers willing to replicate our results should follow the following steps:
+3. Go deeper: Interested readers willing to replicate our results should follow the following steps:
 
 ```shell
 python --version 
 pip --version
 jupyter --version
 
-cd fiscalPolicy
+cd path/to/fiscalPolicy
 pip install -r requirements.txt
 jupyter notebook src/fiscalPolicy_replicationExercise_OCRCV.ipynb
 ```
